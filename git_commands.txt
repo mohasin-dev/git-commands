@@ -1,62 +1,115 @@
+//For initialize a folder in git
 git init
+//For set a user name and email as user globally for all reposetory
 git config --global user.name "mohasin"
 git config --global email"mohasin2911@gmail.com"
 
+//For set a user name and email as user for indevedual reposetory
 git config user.name "mohasin"
 git configemail"mohasin2911@gmail.com"
 
+//To see the user name and email and other congigur informations
 git config --list
 
+//To see the the curent status of your project or folder or working derictory
 git status
+
+//To stage a single file from working derictory to staging area
 git add cold.txt
 
+//To stage all file from working derictory to staging area
 git add --all
 git add .
 
+//To commit 
 git commit -m "two file added"
 
+//To see all commit details
 git log
+
+//To see all commit in short
 git log --oneline
 
+//To see a single commit status
 git checkout (commit number)
 
+//Sorry! Not sure right now
+
+//To create a new branch
 git checkout -b <new-branch-name>
 
+//Switch to master branch from current branch
 git checkout master
+
+//To see difference from last stage to new stage
 git diff
 
+//To see the spacific commit status
 git show (commit number)
-git diff old commit number new commit number
- git diff --staged
 
+//To see difference between two commit
+git diff old commit number new commit number
+
+//To see difference between local repository & working derectory
+git diff --staged
+
+//To remove or delete a file from local repository but it will track
 git rm file_name
 
+//To remove or delete a file from staging area it will not track any more
 git reset HEAD file_name
 
+//Sorry it's too descriptive
 git push........
 
+//Sorry it's too descriptive
 git clone (clone_link)
 git clone (clone_link) new _name
 
+//Sorry it's too descriptive
 git fetch
+
+//Sorry it's too descriptive
 git pull
 
+//To see the all branch list
 git branch
- git checkout firstbranch
+
+//Switch to any branch from current branch
+git checkout firstbranch
+
+//To create a new branch
 git checkout -b secondbranch
- git merge secondbranch
+
+//To merge current branch to master
+git merge secondbranch
+
+//To Delete a branch
 git branch -D branch_name
 
+//To Delete or hide or remove last action/status from a file 
 git stash
+
+//To get back before stashing status
 git stash pop
 git stash apply
 
+//To get all stash list
 git stash list
+
+//To get a single stash list
 git stash pop (stash_sl_number ex:stash@{0}
 )
+
+//To check what will happen if you run git clean -f
 git clean -f -n
+
+//To delete a unstaged or untacked file 
 git clean -f
 
+//To create a gitignore file
 touch .gitignore
+
+//Sorry it's too descriptive
 pull request with propose a new file
 
