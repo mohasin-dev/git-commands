@@ -33,6 +33,8 @@ git rm file_name
 
 git reset HEAD file_name
 
+git push........
+
 git clone (clone_link)
 git clone (clone_link) new _name
 
