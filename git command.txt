@@ -1,0 +1,60 @@
+git init
+git config --global user.name "mohasin"
+git config --global email"mohasin2911@gmail.com"
+
+git config user.name "mohasin"
+git configemail"mohasin2911@gmail.com"
+
+git config --list
+
+git status
+git add cold.txt
+
+git add --all
+git add .
+
+git commit -m "two file added"
+
+git log
+git log --oneline
+
+git checkout (commit number)
+
+git checkout -b <new-branch-name>
+
+git checkout master
+git diff
+
+git show (commit number)
+git diff old commit number new commit number
+ git diff --staged
+
+git rm file_name
+
+git reset HEAD file_name
+
+git clone (clone_link)
+git clone (clone_link) new _name
+
+git fetch
+git pull
+
+git branch
+ git checkout firstbranch
+git checkout -b secondbranch
+ git merge secondbranch
+git branch -D branch_name
+
+git stash
+git stash pop
+git stash apply
+
+git stash list
+git stash pop (stash_sl_number ex:stash@{0}
+)
+git clean -f -n
+git clean -f
+
+touch .gitignore
+pull request with propose a new file
+
